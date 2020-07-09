@@ -1,0 +1,475 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(40,40,42);
+    color: white;
+    display: inline-block;
+}
+#main-div{
+    width: 81%;
+}
+#logo-name-div{
+    float: left;
+    margin-top: 1%;
+    margin-left: 10px;
+}
+#logo-name-div a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+#sign-div{
+    float: right;
+    height: 100%;
+}
+#sign-div ul{
+    list-style-type: none;
+    margin-top: 7%;
+}
+#sign-div ul li{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 75px;
+}
+#navbar{
+    background-color: white;
+    margin-bottom: 1%;
+    margin-top: 15px;
+}
+#navbar ul{
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+}
+#navbar ul li{
+    display: inline-block;
+    margin-right: 0px;
+    width: auto;
+    margin-left: 50px;
+}
+#navbar ul li a{
+    color: rgb(108, 117, 125);
+    text-decoration: none;
+}
+#myCarousel{
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+#myCarousel img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 100%;
+    padding-right: 0px;
+}
+.heading-container{
+    display: inline-block;
+    width: 100%;
+    margin-left: 15px;
+}
+.headings-red{
+    background-color: rgb(238, 0, 45);
+    padding: 0px;
+    width: 420px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    float: left;
+    height: 50px;
+}
+.headings-red h4{
+    font-size: 22px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+.row{
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    border-top: solid 1px rgb(229, 229, 229);
+    padding-top: 5px;
+}
+.card{
+    margin-top: 10px;
+    border-radius: 3px;
+    border: solid 1px rgb(229, 229, 229);
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 3px;
+}
+.card h4,p,h6{
+    margin: 0px;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.card p{
+    font-size: 16px;
+}
+.card h4{
+    font-size: 20.5px;
+    color: black;
+}
+.text-align-center{
+    text-align: center;
+}
+.text-align-right{
+    text-align: right;
+}
+.extra-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bg-skyblue{
+    color: white;
+    background-color: rgb(42, 91, 218);
+}
+.card1 p{
+    font-size: 18px;
+}
+.part1{
+    width: 40%;
+    overflow-wrap: break-word;
+    float: left;
+    border: solid 1px rgb(229, 229, 229);
+}
+.part1 h4{
+    font-size: 18px;
+}
+.part1 h5{
+    font-size: 15px;
+    color: rgb(128, 124, 124);
+    margin-left: 15px;
+}
+.part2{
+    width: 60%;
+    float: right;
+    border: solid 1px rgb(229, 229, 229);
+}
+.part2, .part1, .part2 img{
+    height: 250px;
+}
+.popular_news{
+    margin-bottom: 15px;
+    border-bottom: 0px;
+}
+.no-top-border{
+    border: 0px;
+}
+#about{
+    padding:1px 0px 20px 15px;
+    background-color: rgb(194, 189, 189);
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+.archieve-card img{
+    height: 150px;
+}
+.archieve-card{
+    height: 300px;
+}
+.archieve-card h3{
+    font-size: 18px;
+}
+.archieve-card div{
+    margin: 15px;
+}
+.card2{
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.form{
+    height: auto;
+    background-color: rgb(111, 117, 131);
+    margin-left: 15px;
+    width: 92%;
+    margin-top: 15px;
+}
+.form div{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.form div h3{
+    color: rgb(27, 27, 61);
+    font-weight: bold;
+    font-size: 30px;
+}
+.form div input{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border: 0px;
+    padding: 20px;
+}
+.form div button{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgb(27, 27, 61);
+    font-weight: bold;
+    border: 0px;
+}
+.royal-blue{
+    color: royalblue;
+}
+.button-div{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#older, #newer{
+    color: royalblue;
+    font-weight: bold;
+    height: 30px;
+    width: 80px;
+    border: 0px;
+    border-radius: 25px;
+    border: solid 2px royalblue;
+}
+.card3{
+    border: 0px;
+}
+#older{
+    float: left;
+}
+#newer{
+    float: right;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+    border-top: solid 1px rgb(229, 229, 229);
+}
+footer div{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(153, 153, 153);
+}
+.form button{
+    color: rgb(229, 229, 229);
+}
+/*.................responsive................*/
+@media(min-width: 992px){
+}
+@media(min-width: 768px) and (max-width:991px){
+    #logo-name-div a{
+        font-size: 40px;
+    }
+    #main-div{
+        width: 90%;
+    }
+    #navbar ul li{
+        margin-left: 20px;
+    }
+    #myCarousel{
+        height: 400px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .mar-auto{
+        margin-bottom: 30px;
+    }
+    .side{
+        margin-top: 100px;
+    }
+    .archieve-card img, .archieve-card{
+        height: auto;
+    }
+    .archieve-card{
+        padding-bottom: 5px!important;
+    }
+    #subscribe{
+        margin-top: 100px;
+    }
+    .form div{
+        margin-top: 25px;
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+    .part1 p{
+        font-size: 12px;
+    }
+}
+@media(min-width: 575px) and (max-width:767px){
+    #logo-name-div a{
+        font-size: 40px;
+    }
+    #sign-div ul li{
+        display: block;
+        margin-right: 25px;
+    }
+    #main-div{
+        width: 90%;
+    }
+    #navbar ul li{
+        margin-left: 7px;
+    }
+    #myCarousel{
+        height: 400px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .container{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .mar-auto{
+        margin-bottom: 30px;
+    }
+    .part2{
+        visibility: hidden;
+        height: 0px;
+        border: 0px;
+    }
+    .part1{
+        width: 100%;
+        height: auto;
+    }
+    .part1{
+        margin-bottom: 20px;
+    }
+    .side{
+        margin-top: 100px;
+    }
+    .archieve-card img, .archieve-card{
+        height: auto;
+    }
+    .archieve-card{
+        padding-bottom: 5px!important;
+    }
+    #subscribe{
+        margin-top: 100px;
+    }
+    .form div{
+        margin-top: 0px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+}
+@media(min-width: 480px) and (max-width:574px){
+    #logo-name-div a{
+        font-size: 40px;
+    }
+    #sign-div ul li{
+        display: block;
+        margin-right: 25px;
+    }
+    #main-div{
+        width: 100%;
+    }
+    #navbar ul li{
+        margin-left: 8px;
+    }
+    #myCarousel{
+        height: 300px;
+    }
+    .mar-auto{
+        margin-bottom: 30px;
+    }
+    .part2{
+        visibility: hidden;
+        height: 0px;
+    }
+    .part1{
+        width: 100%;
+        height: auto;
+    }
+    .part1{
+        margin-bottom: 20px;
+    }
+    .side{
+        margin-top: 100px;
+    }
+    .archieve-card img, .archieve-card{
+        height: auto;
+    }
+    .archieve-card{
+        padding-bottom: 5px!important;
+    }
+    #subscribe{
+        margin-top: 100px;
+    }
+    .form div{
+        margin-top: 0px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+}
+@media(max-width:479px){
+    #logo-name-div{
+        margin-top: 20px;
+    }
+    #logo-name-div a{
+        font-size: 25px;
+    }
+    #sign-div ul{
+        margin-top: 20px;
+    }
+    #sign-div ul li{
+        display: block;
+        margin-right: 15px;
+        font-size: 15px;
+    }
+    #main-div{
+        width: 100%;
+    }
+    .headings-red{
+        width: 100%;
+    }
+    #navbar ul li{
+        margin-left: 8px;
+    }
+    #myCarousel{
+        height: 300px;
+    }
+    .mar-auto{
+        margin-bottom: 30px;
+    }
+    .part2{
+        visibility: hidden;
+        height: 0px;
+    }
+    .part1{
+        width: 100%;
+        height: auto;
+    }
+    .part1{
+        margin-bottom: 20px;
+    }
+    .side{
+        margin-top: 100px;
+    }
+    .archieve-card img, .archieve-card{
+        height: auto;
+    }
+    .archieve-card{
+        padding-bottom: 5px!important;
+    }
+    #subscribe{
+        margin-top: 100px;
+    }
+    .form div{
+        margin-top: 0px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+}
